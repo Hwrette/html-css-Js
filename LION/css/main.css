@@ -22,5 +22,5 @@
     border: 20px solid rgb(245, 239, 197);
     border-radius: 10px;
     color: white;
-    box-shadow: 5px 5px 5px gray;
+    box-shadow: 7px 7px 5px 5px gray, inset 5px 5px gray;
 }
