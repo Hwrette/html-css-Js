@@ -1,0 +1,22 @@
+.container {
+    width: 100%;
+}
+
+.button {
+    width: 200px; 
+    height: 200px;
+    background: coral; 
+    border-radius: 200px; 
+    margin: auto; 
+    text-align: center;
+    line-height: 200px; 
+    box-shadow: 10px 10px gray, inset -5px -5px rgb(199, 77, 33)
+}
+
+.nextstop {
+    width: 100%; 
+    height: 100px;
+    background: skyblue; 
+    margin: auto;    
+    margin-bottom: 10px;
+}
