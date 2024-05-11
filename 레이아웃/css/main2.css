@@ -39,6 +39,7 @@
     left: 0;
     right: 0;
     margin: auto;
+    z-index: 5;
 }
 
 .float-box {
@@ -46,10 +47,9 @@
     height: 100px;
     background-color: aquamarine;
     position: relative;
-    left: 0;
-    right: 0;
     margin: auto;
-    bottom: 50px;
+    top: -170px;
     padding: 50px;
     text-align: center;
+    z-index: 0;
 }
