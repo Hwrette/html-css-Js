@@ -12,14 +12,17 @@
     width: 20%;
     height: 400px;
     background: cornflowerblue;
-    float: left;
+    display: inline-block;
+    /* float: left; */
 }
 
 .right {
     width: 80%;
     height: 400px;
     background: coral;
-    float: right;
+    display: inline-block;
+    /* float: right; */
+    vertical-align: top;
 }
 
 .footer{
