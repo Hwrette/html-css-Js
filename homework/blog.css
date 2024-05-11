@@ -1,56 +1,29 @@
 .container {
-    width: 350px;
-    height: 150px;
-    background-color: cornflowerblue;
+    width: 800px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.blog-content {
+    width: 80%;
+    height: 200px;
     float: left;
 }
 
-.photo {
-    width: 140px;
-    height: 150px;
-    background-color: darkcyan;
+.blog-img {
+    width: 20%;
+    height: 200px;
     float: left;
 }
 
-.add {
-    height: 50px;
+.blog-profile{
     width: 50px;
-    opacity: 50px;
-    background-color: black;
-    color: white;
-
-}
-
-.profile {
-    width: 50px; 
-    border-radius: 50px; 
+    border-radius: 50px;
     float: left;
+    margin: 8px ;
 }
 
-.profile_photo {
-    width: 50px; 
-    height: 50px;
-    /* background-color: white; */
+.blog-name {
     float: left;
-}
-
-.user {
-    width: 300px;
-    height: 50px;
-    background-color: rebeccapurple;
-    float: left;
-    vertical-align: top;
-}
-
-.nickname{
-    width: 100%;
-    height: 30px;
-    background-color: white;
-}
-
-.user_nickname {
-    font-size: 15px;
-    font-weight: 400;
-   margin-left: 10px;
-
 }
