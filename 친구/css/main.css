@@ -1,3 +1,15 @@
+h1 {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    margin-top: 70px;
+}
+
 .profile {
     width: 150px; 
     display: block; 
@@ -20,9 +32,5 @@
     margin-left: 30px; 
     font-weight: 500; 
     font-size: 15px;
-}
-
-h1 {
-    text-align: center;
 }
 
