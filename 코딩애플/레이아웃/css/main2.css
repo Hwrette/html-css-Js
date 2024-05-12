@@ -63,3 +63,9 @@ body {
     box-sizing: border-box;
 }
 
+input[type=password] {
+    padding: 10px;
+    font-size: 30px;
+    border-radius: 50px;
+    border: 1px solid black;
+}
