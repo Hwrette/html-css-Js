@@ -1,3 +1,11 @@
+div {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
 .main-background {
     width: 100%;
     height: 500px;
@@ -42,14 +50,16 @@
     z-index: 5;
 }
 
-.float-box {
-    width: 200px;
-    height: 100px;
-    background-color: aquamarine;
+.explain-box {
+    width: 80%;
+    max-width: 600px;
+    height: 200px;
+    background-color: #eee;
     position: relative;
     margin: auto;
-    top: -170px;
-    padding: 50px;
+    top: -120px;
     text-align: center;
-    z-index: 0;
+    z-index: 1;
+    box-sizing: border-box;
 }
+
