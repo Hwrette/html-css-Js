@@ -39,7 +39,7 @@ body {
     color: white;
     border-radius: 10px;
     opacity: 0.5;
-    
+    filter: Alpha(opacity=50);
 }
 
 .main-interface {
