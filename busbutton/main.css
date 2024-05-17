@@ -1,8 +1,9 @@
 .container {
-    width: 100%;
+    width: 400px;
+    margin: auto;
 }
 
-.button {
+.stop-button {
     width: 200px; 
     height: 200px;
     background: coral; 
@@ -19,4 +20,18 @@
     background: skyblue; 
     margin: auto;    
     margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.cancel-button {
+    margin-top: 20px;
+    float: right;
+    padding: 10px;
+    border: none;
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 10px;
+    font-size: larger;
+    display: none;
+    
 }
