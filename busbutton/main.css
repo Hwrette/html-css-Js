@@ -63,6 +63,15 @@ body {
     border-radius: 30px;
 }
 
+.previousstop {
+    width: 100%; 
+    height: 150px;
+    background: #eee; 
+    margin: auto;    
+    margin-bottom: 30px;
+    border-radius: 30px;
+    display: none;
+}
 
 
 

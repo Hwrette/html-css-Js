@@ -27,13 +27,33 @@
     
     <div class="stop-list">
         <div style="height: 500px;"></div>
+
+        <h1 style="color: gray; float: left;" onclick="
+        document.getElementById('disappear').style.display = 'block' ;
+        document.getElementById('previousstop1').style.display = 'block' ;
+        document.getElementById('previousstop2').style.display = 'block' ;
+        ">Previous</h1>
+        <h1 style="color: gray; float: right; display: none;" id="disappear" onclick="
+        document.getElementById('disappear').style.display = 'none' ;
+        document.getElementById('previousstop1').style.display = 'none' ;
+        document.getElementById('previousstop2').style.display = 'none' ;
+        ">X</h1>
+        <div style="clear: both;"></div>
+        <div class="previousstop" id="previousstop1"></div>
+        <div class="previousstop" id="previousstop2"></div>
+        
+
         <h1 style="color: cadetblue; ">This</h1>
         <div class="nextstop" style="background-color: rgb(203, 232, 241);"></div>
+        
         <h1 style="color: cadetblue;">Next</h1> 
         <div class="nextstop"></div>
         <div class="nextstop"></div>
         <div class="nextstop"></div>
-        <br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <div class="nextstop"></div>
+        <div class="nextstop"></div>
+
+        <br><br><br><br><br>
     </div>
 </body>
 </html>
