@@ -1,36 +1,63 @@
-.container {
-    width: 400px;
+body {
+    margin: 0px;
+}
+
+.stop-list {
+    width: 600px;
     margin: auto;
 }
 
 .stop-button {
-    width: 200px; 
-    height: 200px;
+    width: 300px; 
+    height: 300px;
     background: coral; 
     border-radius: 200px; 
-    margin: auto; 
     text-align: center;
-    line-height: 200px; 
-    box-shadow: 10px 10px gray, inset -5px -5px rgb(199, 77, 33)
+    margin-left: auto; 
+    margin-right: auto;
+    line-height: 300px; 
+    box-shadow: 15px 15px gray, inset -10px -10px rgb(199, 77, 33);
+    font-size: 25px;
 }
 
 .nextstop {
     width: 100%; 
-    height: 100px;
+    height: 150px;
     background: skyblue; 
     margin: auto;    
-    margin-bottom: 10px;
-    border-radius: 10px;
+    margin-bottom: 20px;
+    border-radius: 30px;
 }
 
 .cancel-button {
     margin-top: 20px;
     float: right;
-    padding: 10px;
+    padding: 20px;
     border: none;
     background-color: cornflowerblue;
     color: white;
     border-radius: 10px;
     display: none;
     
+}
+
+.main-interface {
+    position: fixed;
+    width: 600px;
+    height: 450px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-top: 40px;
+    background-color: #eee;
+    padding: 30px;
+    border-radius: 30px;
+    box-sizing: border-box;
+}
+
+.white-box {
+    box-sizing: border-box;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    height: 100px;
 }
