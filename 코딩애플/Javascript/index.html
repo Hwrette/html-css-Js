@@ -7,7 +7,17 @@
 </head>
 <body>
 
-    <div class="alert-box" id="alert">알림창임<button onclick="document.getElementById('alert').style.display = 'none';">닫기</button></div>
-    <button onclick="document.getElementById('alert').style.display = 'block';">버튼</button>
+    <div class="alert-box" id="alert">알림창임<button onclick="hideAlert()">닫기</button></div>
+    <button onclick="showAlert()">버튼</button>
+    <script>
+        function showAlert() {
+            document.getElementById('alert').style.display = 'block' ;
+        }
+
+        function hideAlert() {
+            document.getElementById('alert').style.display = 'none' ;
+        }
+
+    </script>
 </body>
 </html>
